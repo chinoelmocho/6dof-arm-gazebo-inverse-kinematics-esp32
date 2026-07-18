@@ -1,0 +1,22 @@
+[1.251s] Invoking command in '/home/chino/brazo_ws/src/BRAZOROBOTICO_description': PYTHONPATH=/home/chino/brazo_ws/build/BRAZOROBOTICO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/BRAZOROBOTICO_description build --build-base /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build install --record /home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log --single-version-externally-managed install_data
+[1.745s] running egg_info
+[1.746s] writing ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/PKG-INFO
+[1.747s] writing dependency_links to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/dependency_links.txt
+[1.747s] writing entry points to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/entry_points.txt
+[1.748s] writing requirements to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/requires.txt
+[1.748s] writing top-level names to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/top_level.txt
+[1.752s] reading manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'
+[1.754s] writing manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'
+[1.754s] running build
+[1.755s] running build_py
+[1.756s] running install
+[1.756s] running install_lib
+[1.757s] running install_data
+[1.758s] copying urdf/BRAZOROBOTICO.gazebo -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+[1.758s] copying urdf/BRAZOROBOTICO.xacro -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+[1.760s] running install_egg_info
+[1.763s] removing '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.763s] Copying ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info to /home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description-0.0.0-py3.10.egg-info
+[1.767s] running install_scripts
+[1.808s] writing list of installed files to '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log'
+[1.846s] Invoked command in '/home/chino/brazo_ws/src/BRAZOROBOTICO_description' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/BRAZOROBOTICO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/BRAZOROBOTICO_description build --build-base /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build install --record /home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log --single-version-externally-managed install_data

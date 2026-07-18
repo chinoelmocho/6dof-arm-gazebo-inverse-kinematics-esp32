@@ -1,0 +1,34 @@
+[1.892s] Invoking command in '/home/chino/brazo_ws/src/Trayectorias': PYTHONPATH=/home/chino/brazo_ws/build/Trayectorias/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Trayectorias build --build-base /home/chino/brazo_ws/build/Trayectorias/build install --record /home/chino/brazo_ws/build/Trayectorias/install.log --single-version-externally-managed install_data
+[2.479s] running egg_info
+[2.480s] creating ../../build/Trayectorias/Trayectorias.egg-info
+[2.481s] writing ../../build/Trayectorias/Trayectorias.egg-info/PKG-INFO
+[2.482s] writing dependency_links to ../../build/Trayectorias/Trayectorias.egg-info/dependency_links.txt
+[2.483s] writing entry points to ../../build/Trayectorias/Trayectorias.egg-info/entry_points.txt
+[2.484s] writing requirements to ../../build/Trayectorias/Trayectorias.egg-info/requires.txt
+[2.484s] writing top-level names to ../../build/Trayectorias/Trayectorias.egg-info/top_level.txt
+[2.485s] writing manifest file '../../build/Trayectorias/Trayectorias.egg-info/SOURCES.txt'
+[2.489s] reading manifest file '../../build/Trayectorias/Trayectorias.egg-info/SOURCES.txt'
+[2.490s] adding license file 'LICENSE'
+[2.491s] writing manifest file '../../build/Trayectorias/Trayectorias.egg-info/SOURCES.txt'
+[2.491s] running build
+[2.492s] running build_py
+[2.492s] creating /home/chino/brazo_ws/build/Trayectorias/build
+[2.493s] creating /home/chino/brazo_ws/build/Trayectorias/build/lib
+[2.494s] creating /home/chino/brazo_ws/build/Trayectorias/build/lib/Trayectorias
+[2.495s] copying Trayectorias/__init__.py -> /home/chino/brazo_ws/build/Trayectorias/build/lib/Trayectorias
+[2.496s] running install
+[2.497s] running install_lib
+[2.499s] creating /home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages/Trayectorias
+[2.501s] copying /home/chino/brazo_ws/build/Trayectorias/build/lib/Trayectorias/__init__.py -> /home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages/Trayectorias
+[2.502s] byte-compiling /home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages/Trayectorias/__init__.py to __init__.cpython-310.pyc
+[2.505s] running install_data
+[2.506s] creating /home/chino/brazo_ws/install/Trayectorias/share/ament_index
+[2.507s] creating /home/chino/brazo_ws/install/Trayectorias/share/ament_index/resource_index
+[2.508s] creating /home/chino/brazo_ws/install/Trayectorias/share/ament_index/resource_index/packages
+[2.509s] copying resource/Trayectorias -> /home/chino/brazo_ws/install/Trayectorias/share/ament_index/resource_index/packages
+[2.510s] copying package.xml -> /home/chino/brazo_ws/install/Trayectorias/share/Trayectorias
+[2.510s] running install_egg_info
+[2.517s] Copying ../../build/Trayectorias/Trayectorias.egg-info to /home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages/Trayectorias-0.0.0-py3.10.egg-info
+[2.522s] running install_scripts
+[2.570s] writing list of installed files to '/home/chino/brazo_ws/build/Trayectorias/install.log'
+[2.623s] Invoked command in '/home/chino/brazo_ws/src/Trayectorias' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/Trayectorias/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Trayectorias build --build-base /home/chino/brazo_ws/build/Trayectorias/build install --record /home/chino/brazo_ws/build/Trayectorias/install.log --single-version-externally-managed install_data

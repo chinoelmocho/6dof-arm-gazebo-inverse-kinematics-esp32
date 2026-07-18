@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000768] (-) JobUnselected: {'identifier': 'Trayectorias'}
+[0.000987] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.001194] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001727] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001926] (-) JobUnselected: {'identifier': 'trajectory_publisher'}
+[0.002094] (BRAZOROBOTICO_description) JobQueued: {'identifier': 'BRAZOROBOTICO_description', 'dependencies': OrderedDict()}
+[0.002249] (BRAZOROBOTICO_description) JobStarted: {'identifier': 'BRAZOROBOTICO_description'}
+[0.096538] (-) TimerEvent: {}
+[0.197075] (-) TimerEvent: {}
+[0.297566] (-) TimerEvent: {}
+[0.398333] (-) TimerEvent: {}
+[0.503475] (-) TimerEvent: {}
+[0.603888] (-) TimerEvent: {}
+[0.704377] (-) TimerEvent: {}
+[0.805643] (-) TimerEvent: {}
+[0.907979] (-) TimerEvent: {}
+[1.008563] (-) TimerEvent: {}
+[1.109122] (-) TimerEvent: {}
+[1.209653] (-) TimerEvent: {}
+[1.310233] (-) TimerEvent: {}
+[1.410813] (-) TimerEvent: {}
+[1.511415] (-) TimerEvent: {}
+[1.611873] (-) TimerEvent: {}
+[1.712465] (-) TimerEvent: {}
+[1.813004] (-) TimerEvent: {}
+[1.913705] (-) TimerEvent: {}
+[2.014282] (-) TimerEvent: {}
+[2.115013] (-) TimerEvent: {}
+[2.215616] (-) TimerEvent: {}
+[2.316069] (-) TimerEvent: {}
+[2.333218] (BRAZOROBOTICO_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/BRAZOROBOTICO_description', 'build', '--build-base', '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/build', 'install', '--record', '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chino/brazo_ws/src/BRAZOROBOTICO_description', 'env': {'USER': 'chino', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chino', 'OLDPWD': '/home/chino/brazo_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chino', 'NAME': 'David', 'WSL_INTEROP': '/run/WSL/27308_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/David Guncay/bin:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/local/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Users/David Guncay/bin:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe:/mnt/c/RoboDK/Python37/Scripts:/mnt/c/RoboDK/Python37:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA/CUDNN/v9.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/include:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Blender Foundation/Blender 3.6:/mnt/c/msys64/usr/bin:/mnt/c/Program Files/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0:/mnt/c/Program Files (x86)/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/DTS/Binn:/mnt/c/Program Files (x86)/Common Files/Siemens:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/Pandoc:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/usbipd-win:/mnt/c/Program Files (x86)/ZeroTier/One:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python38/Scripts:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python38:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python310/Scripts:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python310:/mnt/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python311:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python313:/mnt/c/Users/David Guncay/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/David Guncay/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/David Guncay/AppData/Local/Programs/Ollama:/mnt/c/Users/David Guncay/.dotnet/tools:/mnt/c/Users/David Guncay/AppData/Roaming/npm:/mnt/c/Users/David Guncay/AppData/Local/Kiro-Cli:/mnt/c/Program Files/Git/usr/bin/vendor_perl:/mnt/c/Program Files/Git/usr/bin/core_perl:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/home/chino/brazo_ws/build/BRAZOROBOTICO_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[2.416316] (-) TimerEvent: {}
+[2.516820] (-) TimerEvent: {}
+[2.617202] (-) TimerEvent: {}
+[2.717941] (-) TimerEvent: {}
+[2.818614] (-) TimerEvent: {}
+[2.919146] (-) TimerEvent: {}
+[3.019545] (-) TimerEvent: {}
+[3.061998] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running egg_info\n'}
+[3.064826] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/PKG-INFO\n'}
+[3.065761] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing dependency_links to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/dependency_links.txt\n'}
+[3.067893] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing entry points to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/entry_points.txt\n'}
+[3.068370] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing requirements to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/requires.txt\n'}
+[3.068785] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing top-level names to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/top_level.txt\n'}
+[3.073604] (BRAZOROBOTICO_description) StdoutLine: {'line': b"reading manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'\n"}
+[3.077333] (BRAZOROBOTICO_description) StdoutLine: {'line': b"writing manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'\n"}
+[3.078707] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running build\n'}
+[3.079717] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running build_py\n'}
+[3.080087] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install\n'}
+[3.080643] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install_lib\n'}
+[3.082297] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install_data\n'}
+[3.083577] (BRAZOROBOTICO_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/launch\n'}
+[3.084017] (BRAZOROBOTICO_description) StdoutLine: {'line': b'copying launch/gzclient.launch.py -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/launch\n'}
+[3.084936] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.089481] (BRAZOROBOTICO_description) StdoutLine: {'line': b"removing '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.090757] (BRAZOROBOTICO_description) StdoutLine: {'line': b'Copying ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info to /home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description-0.0.0-py3.10.egg-info\n'}
+[3.095140] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install_scripts\n'}
+[3.119857] (-) TimerEvent: {}
+[3.153285] (BRAZOROBOTICO_description) StdoutLine: {'line': b"writing list of installed files to '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log'\n"}
+[3.218745] (BRAZOROBOTICO_description) CommandEnded: {'returncode': 0}
+[3.220716] (-) TimerEvent: {}
+[3.266119] (BRAZOROBOTICO_description) JobEnded: {'identifier': 'BRAZOROBOTICO_description', 'rc': 0}
+[3.268582] (-) EventReactorShutdown: {}

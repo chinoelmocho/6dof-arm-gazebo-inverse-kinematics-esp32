@@ -1,0 +1,507 @@
+[0.731s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.731s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73d74ed6a6e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73d74eedfdf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73d74eedfdf0>>)
+[1.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.117s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chino/brazo_ws'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extensions ['ignore', 'ignore_ament_install']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'ignore'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'ignore_ament_install'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extensions ['colcon_pkg']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'colcon_pkg'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extensions ['colcon_meta']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'colcon_meta'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extensions ['ros']
+[1.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'ros'
+[1.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/BRAZOROBOTICO_description' with type 'ros.ament_python' and name 'BRAZOROBOTICO_description'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extensions ['ignore', 'ignore_ament_install']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'ignore'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'ignore_ament_install'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extensions ['colcon_pkg']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'colcon_pkg'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extensions ['colcon_meta']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'colcon_meta'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extensions ['ros']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'ros'
+[1.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Trayectorias' with type 'ros.ament_python' and name 'Trayectorias'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[1.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extensions ['ignore', 'ignore_ament_install']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'ignore'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'ignore_ament_install'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extensions ['colcon_pkg']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'colcon_pkg'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extensions ['colcon_meta']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'colcon_meta'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extensions ['ros']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'ros'
+[1.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_publisher' with type 'ros.ament_python' and name 'trajectory_publisher'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[1.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[1.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/chino/brazo_ws/install
+[1.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 506 installed packages in /opt/ros/humble
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'BRAZOROBOTICO_description' build argument 'cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'BRAZOROBOTICO_description' build argument 'cmake_target' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'BRAZOROBOTICO_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'BRAZOROBOTICO_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'BRAZOROBOTICO_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'BRAZOROBOTICO_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'BRAZOROBOTICO_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'BRAZOROBOTICO_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'BRAZOROBOTICO_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.379s] DEBUG:colcon.colcon_core.verb:Building package 'BRAZOROBOTICO_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chino/brazo_ws/build/BRAZOROBOTICO_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chino/brazo_ws/install/BRAZOROBOTICO_description', 'merge_install': False, 'path': '/home/chino/brazo_ws/src/BRAZOROBOTICO_description', 'symlink_install': False, 'test_result_base': None}
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'Trayectorias' build argument 'cmake_args' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'Trayectorias' build argument 'cmake_target' from command line to 'None'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'Trayectorias' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'Trayectorias' build argument 'cmake_clean_cache' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'Trayectorias' build argument 'cmake_clean_first' from command line to 'False'
+[1.379s] Level 5:colcon.colcon_core.verb:set package 'Trayectorias' build argument 'cmake_force_configure' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'Trayectorias' build argument 'ament_cmake_args' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'Trayectorias' build argument 'catkin_cmake_args' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'Trayectorias' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.380s] DEBUG:colcon.colcon_core.verb:Building package 'Trayectorias' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chino/brazo_ws/build/Trayectorias', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chino/brazo_ws/install/Trayectorias', 'merge_install': False, 'path': '/home/chino/brazo_ws/src/Trayectorias', 'symlink_install': False, 'test_result_base': None}
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.381s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chino/brazo_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chino/brazo_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/chino/brazo_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[1.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.382s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chino/brazo_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chino/brazo_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/chino/brazo_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'trajectory_publisher' build argument 'cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'trajectory_publisher' build argument 'cmake_target' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'trajectory_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'trajectory_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'trajectory_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'trajectory_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'trajectory_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'trajectory_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'trajectory_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.383s] DEBUG:colcon.colcon_core.verb:Building package 'trajectory_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chino/brazo_ws/build/trajectory_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chino/brazo_ws/install/trajectory_publisher', 'merge_install': False, 'path': '/home/chino/brazo_ws/src/trajectory_publisher', 'symlink_install': False, 'test_result_base': None}
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.384s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chino/brazo_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chino/brazo_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/chino/brazo_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[1.384s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.386s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.387s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chino/brazo_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[1.387s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chino/brazo_ws/src/uros/micro_ros_msgs'
+[1.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.402s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chino/brazo_ws/src/BRAZOROBOTICO_description' with build type 'ament_python'
+[1.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('BRAZOROBOTICO_description', 'ament_prefix_path')
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/hook/ament_prefix_path.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/hook/ament_prefix_path.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/hook/ament_prefix_path.sh'
+[1.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.417s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chino/brazo_ws/src/Trayectorias' with build type 'ament_python'
+[1.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('Trayectorias', 'ament_prefix_path')
+[1.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/hook/ament_prefix_path.ps1'
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/hook/ament_prefix_path.dsv'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/hook/ament_prefix_path.sh'
+[1.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.431s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chino/brazo_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[1.432s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chino/brazo_ws/src/micro_ros_setup'
+[1.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.441s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chino/brazo_ws/src/trajectory_publisher' with build type 'ament_python'
+[1.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_publisher', 'ament_prefix_path')
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/hook/ament_prefix_path.ps1'
+[1.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/hook/ament_prefix_path.dsv'
+[1.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/hook/ament_prefix_path.sh'
+[1.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble /usr/bin/cmake --build /home/chino/brazo_ws/build/micro_ros_msgs -- -j16 -l16
+[2.072s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chino/brazo_ws/src/BRAZOROBOTICO_description'
+[2.072s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.646s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chino/brazo_ws/src/Trayectorias'
+[2.646s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.646s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble /usr/bin/cmake --build /home/chino/brazo_ws/build/micro_ros_setup -- -j16 -l16
+[2.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble /usr/bin/cmake --build /home/chino/brazo_ws/build/micro_ros_msgs -- -j16 -l16
+[2.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble /usr/bin/cmake --install /home/chino/brazo_ws/build/micro_ros_msgs
+[3.268s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chino/brazo_ws/src/trajectory_publisher'
+[3.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble /usr/bin/cmake --build /home/chino/brazo_ws/build/micro_ros_setup -- -j16 -l16
+[3.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble /usr/bin/cmake --install /home/chino/brazo_ws/build/micro_ros_setup
+[3.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[3.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble /usr/bin/cmake --install /home/chino/brazo_ws/build/micro_ros_msgs
+[3.371s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs' for CMake module files
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs' for CMake config files
+[3.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[3.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[3.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[3.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/lib'
+[3.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[3.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/bin'
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/bin'
+[3.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[3.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[3.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[3.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[3.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[3.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[3.472s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs' for CMake module files
+[3.473s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs' for CMake config files
+[3.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[3.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/lib'
+[3.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[3.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[3.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[3.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[3.479s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/bin'
+[3.479s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_msgs/bin'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[3.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[3.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[3.488s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chino/brazo_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[3.488s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chino/brazo_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[3.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble /usr/bin/cmake --install /home/chino/brazo_ws/build/micro_ros_setup
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup' for CMake module files
+[3.504s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup' for CMake config files
+[3.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/lib'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/bin'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.513s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.513s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/bin'
+[3.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.520s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup' for CMake module files
+[3.521s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup' for CMake config files
+[3.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/lib'
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/bin'
+[3.526s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.526s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.526s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_setup/bin'
+[3.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[4.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/chino/brazo_ws/install/micro_ros_msgs:/home/chino/brazo_ws/install/micro_ros_setup:/home/chino/brazo_ws/install/micro_ros_agent:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble LD_LIBRARY_PATH=/home/chino/brazo_ws/install/micro_ros_msgs/lib:/home/chino/brazo_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/chino/brazo_ws/build/micro_ros_agent -- -j16 -l16
+[4.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/src/BRAZOROBOTICO_description': PYTHONPATH=/home/chino/brazo_ws/build/BRAZOROBOTICO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/BRAZOROBOTICO_description build --build-base /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build install --record /home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log --single-version-externally-managed install_data
+[4.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/src/trajectory_publisher': PYTHONPATH=/home/chino/brazo_ws/build/trajectory_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_publisher build --build-base /home/chino/brazo_ws/build/trajectory_publisher/build install --record /home/chino/brazo_ws/build/trajectory_publisher/install.log --single-version-externally-managed install_data
+[4.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/src/Trayectorias': PYTHONPATH=/home/chino/brazo_ws/build/Trayectorias/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Trayectorias build --build-base /home/chino/brazo_ws/build/Trayectorias/build install --record /home/chino/brazo_ws/build/Trayectorias/install.log --single-version-externally-managed install_data
+[4.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/chino/brazo_ws/install/micro_ros_msgs:/home/chino/brazo_ws/install/micro_ros_setup:/home/chino/brazo_ws/install/micro_ros_agent:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble LD_LIBRARY_PATH=/home/chino/brazo_ws/install/micro_ros_msgs/lib:/home/chino/brazo_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/chino/brazo_ws/build/micro_ros_agent -- -j16 -l16
+[4.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/chino/brazo_ws/install/micro_ros_msgs:/home/chino/brazo_ws/install/micro_ros_setup:/home/chino/brazo_ws/install/micro_ros_agent:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble LD_LIBRARY_PATH=/home/chino/brazo_ws/install/micro_ros_msgs/lib:/home/chino/brazo_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/chino/brazo_ws/build/micro_ros_agent
+[4.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[4.268s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent' for CMake module files
+[4.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/chino/brazo_ws/install/micro_ros_msgs:/home/chino/brazo_ws/install/micro_ros_setup:/home/chino/brazo_ws/install/micro_ros_agent:/home/chino/brazo_ws/install/trajectory_publisher:/home/chino/brazo_ws/install/Trayectorias:/home/chino/brazo_ws/install/BRAZOROBOTICO_description:/opt/ros/humble LD_LIBRARY_PATH=/home/chino/brazo_ws/install/micro_ros_msgs/lib:/home/chino/brazo_ws/install/micro_ros_agent/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/chino/brazo_ws/build/micro_ros_agent
+[4.271s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent' for CMake config files
+[4.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[4.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[4.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[4.290s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/lib'
+[4.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[4.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[4.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[4.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[4.293s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/bin'
+[4.293s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[4.293s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[4.294s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/bin'
+[4.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[4.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[4.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[4.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[4.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[4.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[4.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[4.300s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent' for CMake module files
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent' for CMake config files
+[4.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[4.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[4.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[4.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[4.306s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/lib'
+[4.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[4.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[4.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[4.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[4.309s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/bin'
+[4.309s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[4.309s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[4.310s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/micro_ros_agent/bin'
+[4.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[4.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[4.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[4.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[4.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[4.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[4.726s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/BRAZOROBOTICO_description' for CMake module files
+[4.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/src/BRAZOROBOTICO_description' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/BRAZOROBOTICO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/BRAZOROBOTICO_description build --build-base /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build install --record /home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log --single-version-externally-managed install_data
+[4.728s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/BRAZOROBOTICO_description' for CMake config files
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/bin'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/pkgconfig/BRAZOROBOTICO_description.pc'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages'
+[4.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('BRAZOROBOTICO_description', 'pythonpath')
+[4.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/hook/pythonpath.ps1'
+[4.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/hook/pythonpath.dsv'
+[4.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/hook/pythonpath.sh'
+[4.734s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/bin'
+[4.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(BRAZOROBOTICO_description)
+[4.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/package.ps1'
+[4.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/package.dsv'
+[4.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/package.sh'
+[4.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/package.bash'
+[4.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/package.zsh'
+[4.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/colcon-core/packages/BRAZOROBOTICO_description)
+[4.798s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/trajectory_publisher' for CMake module files
+[4.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/src/trajectory_publisher' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/trajectory_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_publisher build --build-base /home/chino/brazo_ws/build/trajectory_publisher/build install --record /home/chino/brazo_ws/build/trajectory_publisher/install.log --single-version-externally-managed install_data
+[4.801s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/trajectory_publisher' for CMake config files
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/trajectory_publisher/lib'
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/trajectory_publisher/bin'
+[4.807s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/trajectory_publisher/lib/pkgconfig/trajectory_publisher.pc'
+[4.807s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages'
+[4.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_publisher', 'pythonpath')
+[4.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/hook/pythonpath.ps1'
+[4.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/hook/pythonpath.dsv'
+[4.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/hook/pythonpath.sh'
+[4.811s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/trajectory_publisher/bin'
+[4.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_publisher)
+[4.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/package.ps1'
+[4.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/package.dsv'
+[4.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/package.sh'
+[4.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/package.bash'
+[4.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/trajectory_publisher/share/trajectory_publisher/package.zsh'
+[4.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/trajectory_publisher/share/colcon-core/packages/trajectory_publisher)
+[4.847s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/Trayectorias' for CMake module files
+[4.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/src/Trayectorias' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/Trayectorias/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Trayectorias build --build-base /home/chino/brazo_ws/build/Trayectorias/build install --record /home/chino/brazo_ws/build/Trayectorias/install.log --single-version-externally-managed install_data
+[4.850s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/Trayectorias' for CMake config files
+[4.854s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/Trayectorias/lib'
+[4.854s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/Trayectorias/bin'
+[4.855s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/Trayectorias/lib/pkgconfig/Trayectorias.pc'
+[4.855s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages'
+[4.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('Trayectorias', 'pythonpath')
+[4.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/hook/pythonpath.ps1'
+[4.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/hook/pythonpath.dsv'
+[4.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/hook/pythonpath.sh'
+[4.859s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/Trayectorias/bin'
+[4.859s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Trayectorias)
+[4.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/package.ps1'
+[4.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/package.dsv'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/package.sh'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/package.bash'
+[4.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/Trayectorias/share/Trayectorias/package.zsh'
+[4.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/Trayectorias/share/colcon-core/packages/Trayectorias)
+[4.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.866s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.140s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.140s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.140s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.140s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.141s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[5.141s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chino/brazo_ws/install/local_setup.ps1'
+[5.144s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chino/brazo_ws/install/_local_setup_util_ps1.py'
+[5.147s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chino/brazo_ws/install/setup.ps1'
+[5.149s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chino/brazo_ws/install/local_setup.sh'
+[5.150s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chino/brazo_ws/install/_local_setup_util_sh.py'
+[5.151s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chino/brazo_ws/install/setup.sh'
+[5.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chino/brazo_ws/install/local_setup.bash'
+[5.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chino/brazo_ws/install/setup.bash'
+[5.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chino/brazo_ws/install/local_setup.zsh'
+[5.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chino/brazo_ws/install/setup.zsh'

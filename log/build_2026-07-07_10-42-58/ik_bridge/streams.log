@@ -1,0 +1,29 @@
+[1.851s] Invoking command in '/home/chino/brazo_ws/src/ik_bridge': PYTHONPATH=/home/chino/brazo_ws/build/ik_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ik_bridge build --build-base /home/chino/brazo_ws/build/ik_bridge/build install --record /home/chino/brazo_ws/build/ik_bridge/install.log --single-version-externally-managed install_data
+[2.535s] running egg_info
+[2.538s] writing ../../build/ik_bridge/ik_bridge.egg-info/PKG-INFO
+[2.539s] writing dependency_links to ../../build/ik_bridge/ik_bridge.egg-info/dependency_links.txt
+[2.540s] writing entry points to ../../build/ik_bridge/ik_bridge.egg-info/entry_points.txt
+[2.541s] writing requirements to ../../build/ik_bridge/ik_bridge.egg-info/requires.txt
+[2.542s] writing top-level names to ../../build/ik_bridge/ik_bridge.egg-info/top_level.txt
+[2.549s] reading manifest file '../../build/ik_bridge/ik_bridge.egg-info/SOURCES.txt'
+[2.552s] writing manifest file '../../build/ik_bridge/ik_bridge.egg-info/SOURCES.txt'
+[2.553s] running build
+[2.553s] running build_py
+[2.553s] copying ik_bridge/ik_bridge_node.py -> /home/chino/brazo_ws/build/ik_bridge/build/lib/ik_bridge
+[2.555s] copying ik_bridge/send_target.py -> /home/chino/brazo_ws/build/ik_bridge/build/lib/ik_bridge
+[2.556s] running install
+[2.557s] running install_lib
+[2.560s] copying /home/chino/brazo_ws/build/ik_bridge/build/lib/ik_bridge/ik_bridge_node.py -> /home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages/ik_bridge
+[2.561s] copying /home/chino/brazo_ws/build/ik_bridge/build/lib/ik_bridge/send_target.py -> /home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages/ik_bridge
+[2.563s] byte-compiling /home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages/ik_bridge/ik_bridge_node.py to ik_bridge_node.cpython-310.pyc
+[2.571s] byte-compiling /home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages/ik_bridge/send_target.py to send_target.cpython-310.pyc
+[2.573s] running install_data
+[2.573s] running install_egg_info
+[2.577s] removing '/home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages/ik_bridge-0.0.1-py3.10.egg-info' (and everything under it)
+[2.580s] Copying ../../build/ik_bridge/ik_bridge.egg-info to /home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages/ik_bridge-0.0.1-py3.10.egg-info
+[2.585s] running install_scripts
+[2.639s] Installing fk_node script to /home/chino/brazo_ws/install/ik_bridge/lib/ik_bridge
+[2.640s] Installing ik_bridge_node script to /home/chino/brazo_ws/install/ik_bridge/lib/ik_bridge
+[2.640s] Installing send_target script to /home/chino/brazo_ws/install/ik_bridge/lib/ik_bridge
+[2.641s] writing list of installed files to '/home/chino/brazo_ws/build/ik_bridge/install.log'
+[2.695s] Invoked command in '/home/chino/brazo_ws/src/ik_bridge' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/ik_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ik_bridge build --build-base /home/chino/brazo_ws/build/ik_bridge/build install --record /home/chino/brazo_ws/build/ik_bridge/install.log --single-version-externally-managed install_data

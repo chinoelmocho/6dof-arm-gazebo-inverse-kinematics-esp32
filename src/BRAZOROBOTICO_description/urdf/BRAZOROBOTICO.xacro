@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+<robot name="BRAZOROBOTICO" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find BRAZOROBOTICO_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find BRAZOROBOTICO_description)/urdf/BRAZOROBOTICO.ros2control" />
+<xacro:include filename="$(find BRAZOROBOTICO_description)/urdf/BRAZOROBOTICO.gazebo" />
+
+
+
+    <link name="arm1">
+        <inertial>
+            <origin xyz="-0.0012398232703852456 -0.00013959609644285316 0.05417799138583868" rpy="0.0 -0.0 0.0" />
+            <mass value="3.1579373929353265" />
+            <inertia ixx="0.0032264637478605085" iyy="0.00347982267512377" izz="0.0031010656838619402" ixy="3.2433103019433e-05" iyz="-4.187780019208572e-07" ixz="1.0870887968127151e-05" />
+        </inertial>
+        <visual name="arm1_visual">
+            <origin xyz="1.0996646959185841e-39 2.844946500601964e-18 1.6320067963704333e-09" rpy="5.185683238818731e-15 -1.9721522630525304e-31 7.401769296410011e-33" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm1_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="red" />
+        </visual>
+        <collision name="arm1_collision">
+            <origin xyz="1.0996646959185841e-39 2.844946500601964e-18 1.6320067963704333e-09" rpy="5.185683238818731e-15 -1.9721522630525304e-31 7.401769296410011e-33" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm1_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+
+
+
+
+    <link name="arm2">
+        <inertial>
+            <origin xyz="0.06671869508931806 -9.641963803198613e-05 -0.04858185296401313" rpy="0.0 -0.0 0.0" />
+            <mass value="1.9128975486458297" />
+            <inertia ixx="0.0029973752568364207" iyy="0.004828396080764991" izz="0.00225358658802724" ixy="4.115951646470269e-06" iyz="5.555532283927885e-06" ixz="2.0017160381746954e-05" />
+        </inertial>
+        <visual name="arm2_visual">
+            <origin xyz="0.042900000737166016 1.21094106964037e-15 -0.04534999999999972" rpy="-3.1415926535897882 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm2_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="red" />
+        </visual>
+        <collision name="arm2_collision">
+            <origin xyz="0.042900000737166016 1.21094106964037e-15 -0.04534999999999972" rpy="-3.1415926535897882 -1.5707963267948966 0" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm2_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+
+
+
+    <link name="base_link">
+        <inertial>
+            <origin xyz="0.013864304659104518 -1.6283413932092432e-05 0.06782573617777785" rpy="0.0 0.0 0.0" />
+            <mass value="13.398924618921017" />
+            <inertia ixx="0.0312854279636998" iyy="0.03993073650184509" izz="0.04252061865612476" ixy="3.608298145005412e-06" iyz="-4.4486361343131625e-06" ixz="0.0014642779967941975" />
+        </inertial>
+        <visual name="base_link_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="black" />
+        </visual>
+        <collision name="base_link_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+
+
+
+    <link name="arm3">
+        <inertial>
+            <origin xyz="0.05057465037908131 0.00015496585257849607 -0.04289461339660568" rpy="0.0 -0.0 0.0" />
+            <mass value="1.1659903799959128" />
+            <inertia ixx="0.0007068648451514221" iyy="0.0016211456806140279" izz="0.0012584502765321248" ixy="-8.388565147908032e-06" iyz="3.875604890563596e-07" ixz="0.000133746178455373" />
+        </inertial>
+        <visual name="arm3_visual">
+            <origin xyz="0.03350000073716675 5.825890117550078e-16 -0.04504999999999947" rpy="-3.1415926535897882 -1.570796326794891 0" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm3_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="black" />
+        </visual>
+        <collision name="arm3_collision">
+            <origin xyz="0.03350000073716675 5.825890117550078e-16 -0.04504999999999947" rpy="-3.1415926535897882 -1.570796326794891 0" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm3_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+
+
+
+    <link name="arm4">
+        <inertial>
+            <origin xyz="-0.0020229932957197983 0.0020129653619272913 0.07622723129451256" rpy="-1.401298464324817e-45 -0.0 0.0" />
+            <mass value="1.419736527100512" />
+            <inertia ixx="0.0018969713491016334" iyy="0.0021220503457746167" izz="0.0007866093915672226" ixy="-7.012361112825602e-06" iyz="0.00011435901670164924" ixz="3.6998524775438484e-05" />
+        </inertial>
+        <visual name="arm4_visual">
+            <origin xyz="4.1265394571657586e-05 -0.00011600612291949937 0.010500150000000269" rpy="6.1136720154628415e-30 1.9835984706636126e-14 7.503630158279398e-29" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm4_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="red" />
+        </visual>
+        <collision name="arm4_collision">
+            <origin xyz="4.1265394571657586e-05 -0.00011600612291949937 0.010500150000000269" rpy="6.1136720154628415e-30 1.9835984706636126e-14 7.503630158279398e-29" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm4_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+
+
+
+
+    <link name="arm5">
+        <inertial>
+            <origin xyz="0.04520673209884471 -5.863564552026044e-05 -0.018047419002533073" rpy="0.0 -0.0 0.0" />
+            <mass value="0.7909726038913225" />
+            <inertia ixx="0.00040392875114040195" iyy="0.000631393824476828" izz="0.00044866356942649453" ixy="-6.529427959075539e-07" iyz="-5.618457229066022e-07" ixz="0.00019173341340029674" />
+        </inertial>
+        <visual name="arm5_visual">
+            <origin xyz="0.07550000073716596 6.517772432878984e-17 -0.030049999999999195" rpy="-1.328705413289951e-16 1.570796326794896 0" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm5_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="red" />
+        </visual>
+        <collision name="arm5_collision">
+            <origin xyz="0.07550000073716596 6.517772432878984e-17 -0.030049999999999195" rpy="-1.328705413289951e-16 1.570796326794896 0" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/arm5_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+
+
+
+
+    <link name="efector_final">
+        <inertial>
+            <origin xyz="-2.7004528663478887e-13 9.897632362719948e-05 -0.011883347915847367" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0035311172225314692" />
+            <inertia ixx="1.7539187960704302e-07" iyy="1.761254647980083e-07" izz="1.06277847195589e-08" ixy="-9.412203461907844e-20" iyz="7.02766559601268e-10" ixz="5.690143541296691e-18" />
+        </inertial>
+        <visual name="efector_final_visual">
+            <origin xyz="4.126539457074777e-05 0.00011600612292776294 -0.02400000073716612" rpy="3.141592653589793 1.387979053004601e-31 1.4432899320127069e-15" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/efector_final_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="silver" />
+        </visual>
+        <collision name="efector_final_collision">
+            <origin xyz="4.126539457074777e-05 0.00011600612292776294 -0.02400000073716612" rpy="3.141592653589793 1.387979053004601e-31 1.4432899320127069e-15" />
+            <geometry>
+                <mesh filename="file://$(find BRAZOROBOTICO_description)/meshes/efector_final_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+
+
+
+
+
+
+    <joint name="base_link_revolucion-5" type="continuous">
+        <origin xyz="-4.1265394570433325e-05 0.00011600612291995153 0.1036" rpy="4.125904564943878e-47 -0.0 0.0" />
+        <parent link="base_link" />
+        <child link="arm1" />
+        <axis xyz="0.0 4.125904564943878e-47 1.0" />
+        <dynamics damping="1.0" friction="0.5" />
+        <limit velocity="2.0" effort="50.0" />
+    </joint>
+    <joint name="arm1_revolucion-6" type="continuous">
+        <origin xyz="0.04535 2.9871487161625203e-48 0.07239985000000002" rpy="3.141592653589793 -1.5707963267948966 0" />
+        <parent link="arm1" />
+        <child link="arm2" />
+        <axis xyz="0.0 -1.8278669418598943e-48 1.0" />
+        <dynamics damping="1.0" friction="0.5" />
+        <limit velocity="2.0" effort="50.0" />
+    </joint>
+    <joint name="arm2_revolucion-7" type="continuous">
+        <origin xyz="0.09 2.727132363824945e-52 -0.00030000000000000247" rpy="-3.365363543394978e-16 -0.0 0.0" />
+        <parent link="arm2" />
+        <child link="arm3" />
+        <axis xyz="0.0 -3.365363543394978e-16 1.0" />
+        <dynamics damping="1.0" friction="0.5" />
+        <limit velocity="2.0" effort="30.0" />
+    </joint>
+    <joint name="arm3_revolucion-8" type="continuous">
+        <origin xyz="0.033500000000000016 1.5160962762994376e-17 -0.04505" rpy="3.141592653589793 -1.5707963267948963 0" />
+        <parent link="arm3" />
+        <child link="arm4" />
+        <axis xyz="0.0 -6.902532920683853e-30 1.0" />
+        <dynamics damping="1.0" friction="0.5" />
+        <limit velocity="2.0" effort="30.0" />
+    </joint>
+    <joint name="arm4_revolucion-9" type="continuous">
+        <origin xyz="-0.03005 -7.4991089802572395e-31 0.09749999999999996" rpy="-1.471045507628334e-15 -1.5707963267948966 0" />
+        <parent link="arm4" />
+        <child link="arm5" />
+        <axis xyz="0.0 -1.471045507628334e-15 -1.0" />
+        <dynamics damping="1.0" friction="0.5" />
+        <limit velocity="2.0" effort="20.0" />
+    </joint>
+    <joint name="arm5_revolucion-11" type="continuous">
+        <origin xyz="0.06300000000000011 4.4204917504231436e-17 -0.03005" rpy="-3.1415926535897927 1.5707963267948946 0" />
+        <parent link="arm5" />
+        <child link="efector_final" />
+        <axis xyz="0.0 7.793818912448572e-16 1.0" />
+        <dynamics damping="0.5" friction="0.2" />
+        <limit velocity="2.0" effort="10.0" />
+    </joint>
+
+</robot>

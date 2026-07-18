@@ -1,0 +1,3 @@
+[4.720s] Invoking command in '/home/chino/brazo_ws/build/trajectory_publisher': PYTHONPATH=/home/chino/brazo_ws/build/trajectory_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/chino/brazo_ws/build/trajectory_publisher/build
+[5.589s] running develop
+[6.177s] Removing /home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages/trajectory-publisher.egg-link (link to .)

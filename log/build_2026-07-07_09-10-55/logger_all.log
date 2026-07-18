@@ -1,0 +1,265 @@
+[1.208s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ik_bridge']
+[1.208s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ik_bridge'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e5c81766ec0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e5c818b0280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e5c818b0280>>)
+[2.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.074s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chino/brazo_ws'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extensions ['ignore', 'ignore_ament_install']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'ignore'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'ignore_ament_install'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extensions ['colcon_pkg']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'colcon_pkg'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extensions ['colcon_meta']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'colcon_meta'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extensions ['ros']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/BRAZOROBOTICO_description) by extension 'ros'
+[2.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/BRAZOROBOTICO_description' with type 'ros.ament_python' and name 'BRAZOROBOTICO_description'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extensions ['ignore', 'ignore_ament_install']
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'ignore'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'ignore_ament_install'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extensions ['colcon_pkg']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'colcon_pkg'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extensions ['colcon_meta']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'colcon_meta'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extensions ['ros']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/Trayectorias) by extension 'ros'
+[2.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Trayectorias' with type 'ros.ament_python' and name 'Trayectorias'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_bridge) by extensions ['ignore', 'ignore_ament_install']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_bridge) by extension 'ignore'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_bridge) by extension 'ignore_ament_install'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_bridge) by extensions ['colcon_pkg']
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_bridge) by extension 'colcon_pkg'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_bridge) by extensions ['colcon_meta']
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_bridge) by extension 'colcon_meta'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_bridge) by extensions ['ros']
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ik_bridge) by extension 'ros'
+[2.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ik_bridge' with type 'ros.ament_python' and name 'ik_bridge'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[2.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'ignore'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'ignore_ament_install'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extensions ['colcon_pkg']
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'colcon_pkg'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extensions ['colcon_meta']
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'colcon_meta'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extensions ['ros']
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/trajectory_publisher) by extension 'ros'
+[2.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trajectory_publisher' with type 'ros.ament_python' and name 'trajectory_publisher'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[2.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[2.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[2.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.383s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'BRAZOROBOTICO_description' in 'src/BRAZOROBOTICO_description'
+[2.384s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Trayectorias' in 'src/Trayectorias'
+[2.384s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_msgs' in 'src/uros/micro_ros_msgs'
+[2.384s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_setup' in 'src/micro_ros_setup'
+[2.384s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'trajectory_publisher' in 'src/trajectory_publisher'
+[2.384s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_agent' in 'src/uros/micro-ROS-Agent/micro_ros_agent'
+[2.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.403s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/chino/brazo_ws/install
+[2.410s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 507 installed packages in /opt/ros/humble
+[2.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'ik_bridge' build argument 'cmake_args' from command line to 'None'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'ik_bridge' build argument 'cmake_target' from command line to 'None'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'ik_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'ik_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'ik_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'ik_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'ik_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'ik_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'ik_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.721s] DEBUG:colcon.colcon_core.verb:Building package 'ik_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chino/brazo_ws/build/ik_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chino/brazo_ws/install/ik_bridge', 'merge_install': False, 'path': '/home/chino/brazo_ws/src/ik_bridge', 'symlink_install': False, 'test_result_base': None}
+[2.722s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.727s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.731s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chino/brazo_ws/src/ik_bridge' with build type 'ament_python'
+[2.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('ik_bridge', 'ament_prefix_path')
+[2.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/hook/ament_prefix_path.ps1'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/hook/ament_prefix_path.dsv'
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/hook/ament_prefix_path.sh'
+[2.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.774s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.102s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chino/brazo_ws/src/ik_bridge'
+[4.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chino/brazo_ws/src/ik_bridge': PYTHONPATH=/home/chino/brazo_ws/build/ik_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ik_bridge build --build-base /home/chino/brazo_ws/build/ik_bridge/build install --record /home/chino/brazo_ws/build/ik_bridge/install.log --single-version-externally-managed install_data
+[7.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chino/brazo_ws/src/ik_bridge' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/ik_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ik_bridge build --build-base /home/chino/brazo_ws/build/ik_bridge/build install --record /home/chino/brazo_ws/build/ik_bridge/install.log --single-version-externally-managed install_data
+[7.481s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/ik_bridge' for CMake module files
+[7.483s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/ik_bridge' for CMake config files
+[7.491s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/ik_bridge/lib'
+[7.492s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/ik_bridge/bin'
+[7.492s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/ik_bridge/lib/pkgconfig/ik_bridge.pc'
+[7.493s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages'
+[7.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('ik_bridge', 'pythonpath')
+[7.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/hook/pythonpath.ps1'
+[7.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/hook/pythonpath.dsv'
+[7.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/hook/pythonpath.sh'
+[7.505s] Level 1:colcon.colcon_core.environment:checking '/home/chino/brazo_ws/install/ik_bridge/bin'
+[7.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ik_bridge)
+[7.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/package.ps1'
+[7.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/package.dsv'
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/package.sh'
+[7.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/package.bash'
+[7.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/chino/brazo_ws/install/ik_bridge/share/ik_bridge/package.zsh'
+[7.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chino/brazo_ws/install/ik_bridge/share/colcon-core/packages/ik_bridge)
+[7.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.531s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.531s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.532s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.888s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.888s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.888s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.889s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.890s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[7.890s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chino/brazo_ws/install/local_setup.ps1'
+[7.894s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chino/brazo_ws/install/_local_setup_util_ps1.py'
+[7.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chino/brazo_ws/install/setup.ps1'
+[7.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chino/brazo_ws/install/local_setup.sh'
+[7.908s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chino/brazo_ws/install/_local_setup_util_sh.py'
+[7.910s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chino/brazo_ws/install/setup.sh'
+[7.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chino/brazo_ws/install/local_setup.bash'
+[7.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chino/brazo_ws/install/setup.bash'
+[7.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chino/brazo_ws/install/local_setup.zsh'
+[7.929s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chino/brazo_ws/install/setup.zsh'

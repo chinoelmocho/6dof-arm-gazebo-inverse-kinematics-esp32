@@ -1,0 +1,21 @@
+[4.861s] Invoking command in '/home/chino/brazo_ws/src/trajectory_publisher': PYTHONPATH=/home/chino/brazo_ws/build/trajectory_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_publisher build --build-base /home/chino/brazo_ws/build/trajectory_publisher/build install --record /home/chino/brazo_ws/build/trajectory_publisher/install.log --single-version-externally-managed install_data
+[5.793s] running egg_info
+[5.796s] writing ../../build/trajectory_publisher/trajectory_publisher.egg-info/PKG-INFO
+[5.796s] writing dependency_links to ../../build/trajectory_publisher/trajectory_publisher.egg-info/dependency_links.txt
+[5.797s] writing entry points to ../../build/trajectory_publisher/trajectory_publisher.egg-info/entry_points.txt
+[5.798s] writing requirements to ../../build/trajectory_publisher/trajectory_publisher.egg-info/requires.txt
+[5.798s] writing top-level names to ../../build/trajectory_publisher/trajectory_publisher.egg-info/top_level.txt
+[5.803s] reading manifest file '../../build/trajectory_publisher/trajectory_publisher.egg-info/SOURCES.txt'
+[5.805s] writing manifest file '../../build/trajectory_publisher/trajectory_publisher.egg-info/SOURCES.txt'
+[5.805s] running build
+[5.805s] running build_py
+[5.806s] running install
+[5.807s] running install_lib
+[5.811s] running install_data
+[5.812s] running install_egg_info
+[5.816s] removing '/home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages/trajectory_publisher-0.0.1-py3.10.egg-info' (and everything under it)
+[5.817s] Copying ../../build/trajectory_publisher/trajectory_publisher.egg-info to /home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages/trajectory_publisher-0.0.1-py3.10.egg-info
+[5.822s] running install_scripts
+[5.870s] Installing trajectory_publisher_node script to /home/chino/brazo_ws/install/trajectory_publisher/lib/trajectory_publisher
+[5.872s] writing list of installed files to '/home/chino/brazo_ws/build/trajectory_publisher/install.log'
+[5.925s] Invoked command in '/home/chino/brazo_ws/src/trajectory_publisher' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/trajectory_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trajectory_publisher build --build-base /home/chino/brazo_ws/build/trajectory_publisher/build install --record /home/chino/brazo_ws/build/trajectory_publisher/install.log --single-version-externally-managed install_data

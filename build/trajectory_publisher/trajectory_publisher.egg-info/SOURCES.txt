@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../../build/trajectory_publisher/trajectory_publisher.egg-info/PKG-INFO
+../../build/trajectory_publisher/trajectory_publisher.egg-info/SOURCES.txt
+../../build/trajectory_publisher/trajectory_publisher.egg-info/dependency_links.txt
+../../build/trajectory_publisher/trajectory_publisher.egg-info/entry_points.txt
+../../build/trajectory_publisher/trajectory_publisher.egg-info/requires.txt
+../../build/trajectory_publisher/trajectory_publisher.egg-info/top_level.txt
+../../build/trajectory_publisher/trajectory_publisher.egg-info/zip-safe
+resource/trajectory_publisher
+trajectory_publisher/__init__.py
+trajectory_publisher/trajectory_publisher_node.py

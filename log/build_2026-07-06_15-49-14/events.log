@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.001544] (-) JobUnselected: {'identifier': 'Trayectorias'}
+[0.001647] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.001738] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001829] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001918] (-) JobUnselected: {'identifier': 'trajectory_publisher'}
+[0.002011] (BRAZOROBOTICO_description) JobQueued: {'identifier': 'BRAZOROBOTICO_description', 'dependencies': OrderedDict()}
+[0.002105] (BRAZOROBOTICO_description) JobStarted: {'identifier': 'BRAZOROBOTICO_description'}
+[0.099375] (-) TimerEvent: {}
+[0.199660] (-) TimerEvent: {}
+[0.299959] (-) TimerEvent: {}
+[0.400265] (-) TimerEvent: {}
+[0.500582] (-) TimerEvent: {}
+[0.600880] (-) TimerEvent: {}
+[0.701167] (-) TimerEvent: {}
+[0.801451] (-) TimerEvent: {}
+[0.901731] (-) TimerEvent: {}
+[1.002018] (-) TimerEvent: {}
+[1.102309] (-) TimerEvent: {}
+[1.202631] (-) TimerEvent: {}
+[1.302927] (-) TimerEvent: {}
+[1.403291] (-) TimerEvent: {}
+[1.468722] (BRAZOROBOTICO_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/BRAZOROBOTICO_description', 'build', '--build-base', '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/build', 'install', '--record', '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chino/brazo_ws/src/BRAZOROBOTICO_description', 'env': {'USER': 'chino', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chino', 'OLDPWD': '/home/chino/brazo_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'chino', 'NAME': 'David', 'WSL_INTEROP': '/run/WSL/34589_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/chino/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.PowerShell_7.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.10.0_x64__8wekyb3d8bbwe:/mnt/c/RoboDK/Python37/Scripts/:/mnt/c/RoboDK/Python37/:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA/CUDNN/v9.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/lib/x64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/include:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Blender Foundation/Blender 3.6:/mnt/c/msys64/usr/bin:/mnt/c/Program Files/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0/:/mnt/c/Program Files (x86)/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/Pandoc:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/ZeroTier/One/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.2 rel1/bin:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/David Guncay/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/David Guncay/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/David Guncay/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/David Guncay/AppData/Local/Programs/Ollama:/mnt/c/Users/David Guncay/.dotnet/tools:/mnt/c/Users/David Guncay/AppData/Roaming/npm:/mnt/c/Users/David Guncay/AppData/Local/Kiro-Cli/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/home/chino/brazo_ws/build/BRAZOROBOTICO_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.503455] (-) TimerEvent: {}
+[1.603746] (-) TimerEvent: {}
+[1.704054] (-) TimerEvent: {}
+[1.804347] (-) TimerEvent: {}
+[1.904665] (-) TimerEvent: {}
+[1.971670] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.973179] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/PKG-INFO\n'}
+[1.973769] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing dependency_links to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/dependency_links.txt\n'}
+[1.974254] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing entry points to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/entry_points.txt\n'}
+[1.974717] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing requirements to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/requires.txt\n'}
+[1.975512] (BRAZOROBOTICO_description) StdoutLine: {'line': b'writing top-level names to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/top_level.txt\n'}
+[1.979483] (BRAZOROBOTICO_description) StdoutLine: {'line': b"reading manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'\n"}
+[1.982780] (BRAZOROBOTICO_description) StdoutLine: {'line': b"writing manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'\n"}
+[1.982972] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running build\n'}
+[1.983100] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running build_py\n'}
+[1.983817] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install\n'}
+[1.984459] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.986166] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install_data\n'}
+[1.986631] (BRAZOROBOTICO_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/launch\n'}
+[1.988597] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.992052] (BRAZOROBOTICO_description) StdoutLine: {'line': b"removing '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.993022] (BRAZOROBOTICO_description) StdoutLine: {'line': b'Copying ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info to /home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description-0.0.0-py3.10.egg-info\n'}
+[1.996406] (BRAZOROBOTICO_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.004824] (-) TimerEvent: {}
+[2.036454] (BRAZOROBOTICO_description) StdoutLine: {'line': b"writing list of installed files to '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log'\n"}
+[2.073832] (BRAZOROBOTICO_description) CommandEnded: {'returncode': 0}
+[2.097641] (BRAZOROBOTICO_description) JobEnded: {'identifier': 'BRAZOROBOTICO_description', 'rc': 0}
+[2.099322] (-) EventReactorShutdown: {}

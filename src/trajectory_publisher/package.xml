@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>trajectory_publisher</name>
+  <version>0.0.1</version>
+  <description>Genera una trayectoria cartesiana del efector final y la publica en /trajectory_chunks, troceada en chunks compatibles con el firmware micro-ROS del brazo de 6 GDL.</description>
+  <maintainer email="chino@todo.todo">chino</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

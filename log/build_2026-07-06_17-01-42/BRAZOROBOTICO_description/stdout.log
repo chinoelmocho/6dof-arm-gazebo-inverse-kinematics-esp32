@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/dependency_links.txt
+writing entry points to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/entry_points.txt
+writing requirements to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/requires.txt
+writing top-level names to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/top_level.txt
+reading manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying urdf/BRAZOROBOTICO.gazebo -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+copying urdf/BRAZOROBOTICO.xacro -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+copying urdf/materials.xacro -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+running install_egg_info
+removing '/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info to /home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log'

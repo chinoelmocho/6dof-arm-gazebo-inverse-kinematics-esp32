@@ -1,0 +1,5 @@
+[console_scripts]
+fk_node = ik_bridge.fk_node:main
+ik_bridge_node = ik_bridge.ik_bridge_node:main
+send_target = ik_bridge.send_target:main
+

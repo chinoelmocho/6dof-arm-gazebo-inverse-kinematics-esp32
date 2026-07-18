@@ -1,0 +1,51 @@
+[3.426s] Invoking command in '/home/chino/brazo_ws/src/BRAZOROBOTICO_description': PYTHONPATH=/home/chino/brazo_ws/build/BRAZOROBOTICO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/BRAZOROBOTICO_description build --build-base /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build install --record /home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log --single-version-externally-managed install_data
+[4.148s] running egg_info
+[4.150s] writing ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/PKG-INFO
+[4.151s] writing dependency_links to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/dependency_links.txt
+[4.152s] writing entry points to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/entry_points.txt
+[4.153s] writing requirements to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/requires.txt
+[4.153s] writing top-level names to ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/top_level.txt
+[4.158s] reading manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'
+[4.160s] writing manifest file '../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info/SOURCES.txt'
+[4.161s] running build
+[4.161s] running build_py
+[4.161s] creating /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build
+[4.162s] creating /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build/lib
+[4.164s] creating /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build/lib/BRAZOROBOTICO_description
+[4.165s] copying BRAZOROBOTICO_description/__init__.py -> /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build/lib/BRAZOROBOTICO_description
+[4.166s] running install
+[4.167s] running install_lib
+[4.168s] creating /home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description
+[4.170s] copying /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build/lib/BRAZOROBOTICO_description/__init__.py -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description
+[4.172s] byte-compiling /home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description/__init__.py to __init__.cpython-310.pyc
+[4.174s] running install_data
+[4.174s] copying resource/BRAZOROBOTICO_description -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/ament_index/resource_index/packages
+[4.175s] copying package.xml -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description
+[4.176s] creating /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/launch
+[4.176s] copying launch/display.launch.py -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/launch
+[4.177s] copying launch/gazebo.launch.py -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/launch
+[4.177s] creating /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+[4.179s] copying urdf/BRAZOROBOTICO.gazebo -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+[4.179s] copying urdf/BRAZOROBOTICO.ros2control -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+[4.180s] copying urdf/BRAZOROBOTICO.xacro -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+[4.180s] copying urdf/materials.xacro -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/urdf
+[4.181s] creating /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/meshes
+[4.182s] copying meshes/efector_final_1.stl -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/meshes
+[4.182s] copying meshes/arm4_1.stl -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/meshes
+[4.186s] copying meshes/base_link.stl -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/meshes
+[4.192s] copying meshes/arm5_1.stl -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/meshes
+[4.195s] copying meshes/arm3_1.stl -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/meshes
+[4.197s] copying meshes/arm2_1.stl -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/meshes
+[4.256s] copying meshes/arm1_1.stl -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/meshes
+[4.272s] creating /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/config
+[4.273s] copying config/gazebo.rviz -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/config
+[4.274s] copying config/display.rviz:Zone.Identifier -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/config
+[4.276s] copying config/ros_gz_bridge_gazebo.yaml:Zone.Identifier -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/config
+[4.280s] copying config/ros_gz_bridge_gazebo.yaml -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/config
+[4.281s] copying config/gazebo.rviz:Zone.Identifier -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/config
+[4.282s] copying config/display.rviz -> /home/chino/brazo_ws/install/BRAZOROBOTICO_description/share/BRAZOROBOTICO_description/config
+[4.283s] running install_egg_info
+[4.286s] Copying ../../build/BRAZOROBOTICO_description/BRAZOROBOTICO_description.egg-info to /home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages/BRAZOROBOTICO_description-0.0.0-py3.10.egg-info
+[4.286s] running install_scripts
+[4.330s] writing list of installed files to '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log'
+[4.383s] Invoked command in '/home/chino/brazo_ws/src/BRAZOROBOTICO_description' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/BRAZOROBOTICO_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/BRAZOROBOTICO_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/BRAZOROBOTICO_description build --build-base /home/chino/brazo_ws/build/BRAZOROBOTICO_description/build install --record /home/chino/brazo_ws/build/BRAZOROBOTICO_description/install.log --single-version-externally-managed install_data

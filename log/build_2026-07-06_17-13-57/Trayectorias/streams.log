@@ -1,0 +1,21 @@
+[2.979s] Invoking command in '/home/chino/brazo_ws/src/Trayectorias': PYTHONPATH=/home/chino/brazo_ws/build/Trayectorias/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Trayectorias build --build-base /home/chino/brazo_ws/build/Trayectorias/build install --record /home/chino/brazo_ws/build/Trayectorias/install.log --single-version-externally-managed install_data
+[3.703s] running egg_info
+[3.705s] writing ../../build/Trayectorias/Trayectorias.egg-info/PKG-INFO
+[3.705s] writing dependency_links to ../../build/Trayectorias/Trayectorias.egg-info/dependency_links.txt
+[3.706s] writing entry points to ../../build/Trayectorias/Trayectorias.egg-info/entry_points.txt
+[3.707s] writing requirements to ../../build/Trayectorias/Trayectorias.egg-info/requires.txt
+[3.707s] writing top-level names to ../../build/Trayectorias/Trayectorias.egg-info/top_level.txt
+[3.712s] reading manifest file '../../build/Trayectorias/Trayectorias.egg-info/SOURCES.txt'
+[3.713s] adding license file 'LICENSE'
+[3.715s] writing manifest file '../../build/Trayectorias/Trayectorias.egg-info/SOURCES.txt'
+[3.715s] running build
+[3.716s] running build_py
+[3.716s] running install
+[3.717s] running install_lib
+[3.719s] running install_data
+[3.720s] running install_egg_info
+[3.724s] removing '/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages/Trayectorias-0.0.0-py3.10.egg-info' (and everything under it)
+[3.726s] Copying ../../build/Trayectorias/Trayectorias.egg-info to /home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages/Trayectorias-0.0.0-py3.10.egg-info
+[3.731s] running install_scripts
+[3.784s] writing list of installed files to '/home/chino/brazo_ws/build/Trayectorias/install.log'
+[3.847s] Invoked command in '/home/chino/brazo_ws/src/Trayectorias' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/Trayectorias/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Trayectorias build --build-base /home/chino/brazo_ws/build/Trayectorias/build install --record /home/chino/brazo_ws/build/Trayectorias/install.log --single-version-externally-managed install_data

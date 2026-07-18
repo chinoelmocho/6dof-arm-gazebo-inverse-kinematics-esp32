@@ -1,0 +1,24 @@
+[2.783s] Invoking command in '/home/chino/brazo_ws/build/ik_bridge': PYTHONPATH=/home/chino/brazo_ws/build/ik_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chino/brazo_ws/build/ik_bridge/build --no-deps symlink_data
+[3.493s] running develop
+[3.974s] running egg_info
+[3.974s] creating ik_bridge.egg-info
+[3.976s] writing ik_bridge.egg-info/PKG-INFO
+[3.977s] writing dependency_links to ik_bridge.egg-info/dependency_links.txt
+[3.978s] writing entry points to ik_bridge.egg-info/entry_points.txt
+[3.978s] writing requirements to ik_bridge.egg-info/requires.txt
+[3.978s] writing top-level names to ik_bridge.egg-info/top_level.txt
+[3.979s] writing manifest file 'ik_bridge.egg-info/SOURCES.txt'
+[3.983s] reading manifest file 'ik_bridge.egg-info/SOURCES.txt'
+[3.985s] writing manifest file 'ik_bridge.egg-info/SOURCES.txt'
+[3.988s] running build_ext
+[3.989s] Creating /home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages/ik-bridge.egg-link (link to .)
+[3.990s] Installing ik_bridge_node script to /home/chino/brazo_ws/install/ik_bridge/lib/ik_bridge
+[3.992s] 
+[3.992s] Installed /home/chino/brazo_ws/build/ik_bridge
+[3.993s] running symlink_data
+[3.994s] creating /home/chino/brazo_ws/install/ik_bridge/share/ament_index
+[3.994s] creating /home/chino/brazo_ws/install/ik_bridge/share/ament_index/resource_index
+[3.994s] creating /home/chino/brazo_ws/install/ik_bridge/share/ament_index/resource_index/packages
+[3.995s] symbolically linking /home/chino/brazo_ws/build/ik_bridge/resource/ik_bridge -> /home/chino/brazo_ws/install/ik_bridge/share/ament_index/resource_index/packages
+[3.995s] symbolically linking /home/chino/brazo_ws/build/ik_bridge/package.xml -> /home/chino/brazo_ws/install/ik_bridge/share/ik_bridge
+[4.090s] Invoked command in '/home/chino/brazo_ws/build/ik_bridge' returned '0': PYTHONPATH=/home/chino/brazo_ws/build/ik_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chino/brazo_ws/install/ik_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chino/brazo_ws/build/ik_bridge/build --no-deps symlink_data

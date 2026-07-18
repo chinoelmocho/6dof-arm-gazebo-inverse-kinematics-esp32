@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/home/chino/brazo_ws/build/micro_ros_agent/CMakeFiles/xrceagent
+/home/chino/brazo_ws/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/home/chino/brazo_ws/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/home/chino/brazo_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/home/chino/brazo_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/home/chino/brazo_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/home/chino/brazo_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/home/chino/brazo_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/home/chino/brazo_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/home/chino/brazo_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule

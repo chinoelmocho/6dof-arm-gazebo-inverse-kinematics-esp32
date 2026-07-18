@@ -1,0 +1,16 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/Trayectorias/Trayectorias.egg-info/PKG-INFO
+../../build/Trayectorias/Trayectorias.egg-info/SOURCES.txt
+../../build/Trayectorias/Trayectorias.egg-info/dependency_links.txt
+../../build/Trayectorias/Trayectorias.egg-info/entry_points.txt
+../../build/Trayectorias/Trayectorias.egg-info/requires.txt
+../../build/Trayectorias/Trayectorias.egg-info/top_level.txt
+../../build/Trayectorias/Trayectorias.egg-info/zip-safe
+Trayectorias/__init__.py
+resource/Trayectorias
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

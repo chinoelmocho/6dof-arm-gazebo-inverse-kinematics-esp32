@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/chino/brazo_ws/build/trajectory_publisher",
+        "/home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages",
+        "/home/chino/brazo_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/chino/brazo_ws/build/trajectory_publisher",
+        "/home/chino/brazo_ws/install/trajectory_publisher/lib/python3.10/site-packages",
+        "/home/chino/brazo_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/chino/brazo_ws/install/Trayectorias/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
