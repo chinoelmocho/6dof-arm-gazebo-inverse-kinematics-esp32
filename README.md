@@ -9,9 +9,6 @@ ESP32 vía micro-ROS para mover el brazo físico.
 ![RViz](docs/images/rviz.png)
 ![Brazo real](docs/images/arm-real.jpg)
 
-> Pon tus capturas/fotos en `docs/images/` (ver `docs/images/README.md`)
-> con esos nombres y aparecerán aquí automáticamente.
-
 ## Índice
 
 - [Arquitectura](#arquitectura)
