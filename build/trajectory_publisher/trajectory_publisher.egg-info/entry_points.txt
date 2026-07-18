@@ -1,3 +1,0 @@
-[console_scripts]
-trajectory_publisher_node = trajectory_publisher.trajectory_publisher_node:main
-

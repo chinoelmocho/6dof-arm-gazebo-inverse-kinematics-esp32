@@ -1,0 +1,25 @@
+# Artefactos generados por colcon (se regeneran con `colcon build`)
+build/
+install/
+log/
+
+# Paquetes de terceros clonados via vcs (ver src/ros2.repos)
+src/uros/micro-ROS-Agent/
+src/uros/micro_ros_msgs/
+src/micro_ros_setup/
+
+# Python
+__pycache__/
+*.pyc
+
+# Notas de depuracion locales (contienen rutas de tu maquina, no aportan al repo)
+CLAUDE_CONTINUE.txt
+
+# Config local de Claude Code
+.claude/
+
+# Metadatos de Windows en archivos descargados
+*Zone.Identifier*
+
+# VS Code (cache local del intellisense de C/C++)
+.vscode/browse.vc.db*

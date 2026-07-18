@@ -1,6 +1,0 @@
-/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
-  warnings.warn(
-package init file 'BRAZOROBOTICO_description/__init__.py' not found (or not a regular file)
-warning: install_lib: '/home/chino/brazo_ws/build/BRAZOROBOTICO_description/build/lib' does not exist -- no Python modules to install
-
-error: can't copy 'resource/BRAZOROBOTICO_description': doesn't exist or not a regular file
